@@ -1,0 +1,45 @@
+/* * {
+
+}
+
+body {
+
+} */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin: 0 auto;
+    border-color: red;
+    max-width: 1600px;
+    
+}
+
+/* 
+LHS column Styling
+*/
+.left-column {
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+.left-column h1 {
+    font-size: 60px;
+}
+
+.socials img {
+    max-width: 80px;
+    max-height: 80px;
+}
+
+
+/* 
+RHS column Styling
+*/
+
+.right-column {
+    padding: 20px;
+    background-color: #e0e0e0;
+}
+
