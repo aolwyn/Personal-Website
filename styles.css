@@ -37,6 +37,7 @@ h1, p, nav {
 .socials a {
     margin-right: 4px; 
 }
+
 .socials img {
     max-width: 80px;
     max-height: 80px;
@@ -50,8 +51,13 @@ h1, p, nav {
 }
 
 .interior-linking a{
-    
+    text-decoration: none;
     margin-right: 12px;
+    color: inherit;
+}
+
+.interior-linking a:hover {
+    color: #2E456D;
 }
 
 /*               */
