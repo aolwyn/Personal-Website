@@ -1,16 +1,18 @@
-
-
 body {
     font-family: 'Montserrat', sans-serif;
     background-color: gray;
     color:aliceblue;
 
 } 
-h1, p, nav {
+h1, h2, p, nav {
     margin: 0;
     padding: 0px;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
 .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -51,9 +53,7 @@ h1, p, nav {
 }
 
 .interior-linking a{
-    text-decoration: none;
     margin-right: 12px;
-    color: inherit;
 }
 
 .interior-linking a:hover {
@@ -65,5 +65,10 @@ h1, p, nav {
 .right-column {
     padding: 20px;
     background-color: #e0e0e0;
+}
+
+.right-column h2 {
+    padding-bottom: 2px;
+    margin: 2px;
 }
 
