@@ -1,97 +1,156 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
-    <title>Adam's Personal Website</title>
-</head>
-<body>
-    <div class="grid-container">
-        <div class="left-column">
-            <h1><strong>Hey, I'm </br> Adam.</strong></h1>
-            
-            <nav class="socials">
-                <a href="https://github.com/aolwyn" target="_blank"><img src="./Assets/github.svg" alt="GitHub Icon"></a>
-                <a href="https://www.linkedin.com/in/adam-bayley-4b6611227/" target="_blank"><img src="./Assets/linkedin.svg" alt="LinkedIn Icon"></a>
-                <a href="mailto:secretage002@gmail.com" target="_blank"><img src="./Assets/google.svg"  alt="Google Icon"></a>
-                <!-- <img src="./Assets/res.svg" alt="Resume"> TODO -->
-            </nav>
-            <p>I'm a computer engineer based in Toronto, Ontario. 
-                I am passionate about delivering data-driven solutions to clients and learning new technologies.
-                In my spare time, you can find me rock climbing, biking, online, or working on my next personal project.</p>
-            
-                <div class="interior-linking">
-                    <a href="#Education">01 EDUCATION</a>    <a href="#Experience">02 EXPERIENCE</a>    <a href="#">03 PROJECTS</a>    <a href="#">04 MISC</a>
-                </div>
-        </div>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="styles.css">
+		<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+		<title>Adam's Personal Website</title>
+	</head>
+	<body>
+		<div class="grid-container">
+			<div class="left-column">
+				<h1>
+					<strong>Hey, I'm </br> Adam. </strong>
+				</h1>
+				<nav class="socials">
+					<a href="https://github.com/aolwyn" target="_blank">
+						<img src="./Assets/github.svg" alt="GitHub Icon">
+					</a>
+					<a href="https://www.linkedin.com/in/adam-bayley-4b6611227/" target="_blank">
+						<img src="./Assets/linkedin.svg" alt="LinkedIn Icon">
+					</a>
+					<a href="mailto:secretage002@gmail.com" target="_blank">
+						<img src="./Assets/google.svg" alt="Google Icon">
+					</a>
+					<!-- <img src="./Assets/res.svg" alt="Resume"> TODO -->
+				</nav>
+				<p>I'm a computer engineer based in Toronto, Ontario. I am passionate about delivering data-driven solutions to clients and learning new technologies. In my spare time, you can find me rock climbing, biking, online, or working on my next personal project.</p>
+				<div class="interior-linking">
+					<a href="#Education">01 EDUCATION</a>
+					<a href="#Experience">02 EXPERIENCE</a>
+					<a href="#">03 PROJECTS</a>
+					<a href="#">04 MISC</a>
+				</div>
+			</div>
+			<div class="right-column">
+				<section class="Education" id="Education">
+					<h1>Education</h1>
+					<div class="education-panel">
+						<h2>Queen's University</h2>
+						<p>Studied computer engineering at Queen's University from 2019 to 2023, curriculum focusing on machine learning, artificial intelligence, and software. Graduated with first class honors.</p>
+						<br>
+						<a href="https://www.queensu.ca/" target="_blank">Queen's University Website</a>
+					</div>
+				</section>
+				<br>
+				<section class="Experience" id="Experience">
+					<h1>Work Experience</h1>
+					<div class="experience-panel">
+						<h2>Laboratory Assistant</h2>
+						<div class="experience-panel-info">
+							<a href="https://cooktopsafety.com" target="_blank"> Cooktop Safety </a>
+							<p>Internship • May 2022 - September 2022 <br> Kingston, Ontario </p>
+						</div>
+						<br>
+						<p>
+							<strong>Cooktop Safety</strong> is a startup aiming to provide protection for homes, families, and loved ones from the dangers of cooking fires through the use of innovative smart AI technology. Here's some highlights of my work during my time at the company:
+						</p>
+						<br>
+						<p> • Collaborated in a team of three to design, test, and implement experiments to collect data for training multiple machine-learning models</p>
+						<br>
+						<p>• Streamlined the machine learning pipeline over a period of three months by developing scripts to find critical events using machine vision and automatically label data for pre-processing based on sensor data with Python</p>
+						<br>
+						<p>• Prepared scientific findings and progress to key stakeholders in bi-weekly presentations and reports, converting new business objectives into actionable items while tracking ongoing progress using Trello</p>
+					</div>
+					<br>
+					<div class="experience-panel">
+						<h2>Undergraduate Teaching Assistant</h2>
+						<div class="experience-panel-info">
+							<a href="https://engineering.queensu.ca/ece/undergraduate/courses/elec-299.html" target="_blank">Queen's University</a>
+							<p>Contract Part-Time • January 2023 - April 2023 <br> Kingston, Ontario </p>
+						</div>
+						<br>
+						<p>Undergraduate teaching assistant for the course ELEC299: Mechatronics Project, a course based around an autonomous, programmable, robotic vehicle. Students explore different sensors and software strategies for vehicle control and navigation. Here's some highlights of my work during my time as a TA:</p>
+						<br>
+						<p> • Assisting students develop autonomous algorithms for vehicle control</p>
+						<br>
+						<p>• Evaluating and assessing student performance in laboratory exercises</p>
+						<br>
+						<p>• Debugging student's Arduino code</p>
+						<br>
+						<p>• Rectifying incorrect board wiring</p>
+					</div>
+					<br>
+					<h1>Other Work and Club Experience</h1>
+					<div class="experience-panel">
+						<h2>Software Lead</h2>
+						<div class="experience-panel-info">
+							<a href="https://www.queensbaja.ca/about-us/" target="_blank">Queen's Baja SAE Team</a>
+							<p>Engineering Design Team • September 2021 - September 2023 <br> Toronto, Ontario </p>
+						</div>
+						<br>
+						<p>Baja SAE is a Collegiate Design Series competition run by the Society of Automotive Engineers International (SAE International). The goal in Baja SAE is to design, build and race off-road vehicles that can withstand the harshest elements of rough terrain (Vehicles are 4-wheel off roaders)</p>
+						<br>
+						<p>I started on the design team as a member of the electrical subdivision, working on data acquisition for a dynamometer and sensor integration. In my final year, I led the software development of the team. Here's some accomplishments I am proud of:</p>
+						<br>
+						<p>• Spearheaded a team of 10 people to redesign and implement a new data acquisition system using a Teensy and Raspberry Pi, helping the team to a 6th-place finish in the endurance race at Baja SAE Oshkosh 2023</p>
+						<br>
+						<p>• Assisted vehicle driver capabilities by developing a real-time driver dashboard displaying sensor outputs including speed, engine RPM, engine temperature, and estimated fuel </p>
+						<br>
+						<p>• Developed a custom CAN bus library to facilitate SD data logging of sensor data during competition in C++, assisting other sub-teams tune their equipment and CAD designs </p>
+						<br>
+					</div>
+					<br>
+					<div class="experience-panel">
+						<h2>Academic Tutor</h2>
+						<div class="experience-panel-info">
+							<a href="https://englinks.ca/about-englinks/" target="_blank">Englinks</a>
+							<p>On Call / Pickup • September 2021 - April 2023 <br> Kingston, Ontario / Remote </p>
+						</div>
+						<br>
+						<p>
+							<strong>EngLinks</strong> is the academic support service of the Engineering Society of Queen's University, connecting Tutors, Workshop Leaders, and Resource Creators. Here's some highlights from my work as a tutor and workshop leader:
+						</p>
+						<br>
+						<p>• Delivered in-person instruction in calculus, chemistry, graphics, computer science, and data structures and algorithms to 57 students, improving core understanding and raising academic averages by 5-21%</p>
+						<br>
+						<p>• Broke down large questions into smaller sub problems for students to understand the underlying concepts before developing their own solution and how to test their code in a staged development process</p>
+						<br>
+						<p>• Created practice exam-style questions and study notes for students to reinforce the knowledge learned in instructional sessions</p>
+					</div>
+					<br>
+					<div class="experience-panel">
+						<h2>Lifeguard</h2>
+						<div class="experience-panel-info">
+							<a href="https://www.toronto.ca/explore-enjoy/recreation/leadership-employment-readiness/aquatic-leadership/" target="_blank">Toronto Aquatics +</a>
+							<a href="https://superiorpool.com/" target="_blank">Superior Pool Spa & Leisure Ltd.</a>
+							<p>Contract Seasonal • June 2017 - September 2020 <br> Toronto, Ontario </p>
+						</div>
+						<br>
+						<p>
+							<strong>Lifeguarded</strong> for both the City of Toronto and Superior Pool Spa & Leisure Ltd. Here's some highlights from my as a lifeguard with the <u>City of Toronto</u>:
+						</p>
+						<br>
+						<p>• Collaborated with 15 other lifeguards to provide a safe environment for 750+ hourly patrons at Toronto's largest outdoor pool</p>
+						<br>
+						<p>• Utilized first aid skills, leadership, and communication to successfully prevent and manage 5 emergencies</p>
+						<br>
+						<p>• Implemented and followed COVID-19 safety protocols by screening patrons, contact tracing, and directed walkways with 6ft markers on the ground, minimizing exposures</p>
+						<br>
+						<p>And here's some of my highlights with <u>Superior Pool Spa & Leisure Ltd.</u>: </p>
+						<br>
+						<p>• Solo-guarded for an apartment complex, providing a safe environment for 25 hourly patrons</p>
+						<br>
+						<p>• Kept chemical levels including chlorine, pH, acidity, and alkalinity of the pool to health regulation standards </p>
+					</div>
+					<br>
+				</section>
+				<!-- Close the work experience section-->
+                <section class="Projects" id="Projects">
 
-
-        <div class="right-column">
-            <section class="Education" id="Education">
-                <h1>Education</h1>
-                <div class="education-panel">
-                    <h2>Queen's University</h2>
-                    <p>Studied computer engineering at Queen's University from 2019 to 2023, curriculum 
-                    focusing on machine learning, artificial intelligence, and software. Graduated with first class honors.</p> 
-                <br>
-                    <a href="https://www.queensu.ca/" target="_blank"> Website</a>
-                </div> 
-            </section>
-            <br>
-            <section class="Experience" id="Experience">
-                <h1>Work Experience</h1>
-                <div class="experience-panel">
-                    <h2>Laboratory Assistant</h2>
-                    <a href="https://cooktopsafety.com" target="_blank">Cooktop Safety</a><p> • Internship • May 2022 - September 2022 <br> Kingston, Ontario</p>
-                    <br><br>
-                    <p>Cooktop Safety is a startup aiming to provide protection for homes, families, 
-                        and loved ones from the dangers of cooking fires through the use of innovative smart AI technology. Here's some highlights of my work during my time at the company:</p>
-                    <br><br>
-                    <p> • Collaborated in a team of three to design, test, and implement experiments to collect data for training multiple machine-learning models</p>
-                    <br><br>
-                    <p>• Streamlined the machine learning pipeline over a period of three months by developing scripts to find critical events using machine vision and automatically label data for pre-processing based on sensor data with Python</p>
-                    <br><br>
-                    <p>• Prepared scientific findings and progress to key stakeholders in bi-weekly presentations and reports, converting new business objectives into actionable items while tracking ongoing progress using Trello</p>
-                </div>
-                <br>
-                <div class="experience-panel">
-                    <h2>Undergraduate Teaching Assistant</h2>
-                    <a href="https://engineering.queensu.ca/ece/undergraduate/courses/elec-299.html" target="_blank">Queen's University</a><p> • Contract Part-Time • January 2023 - April 2023 <br> Kingston, Ontario</p>
-                    <br><br>
-                    <p>Undergraduate teaching assistant for the course ELEC299: Mechatronics Project. A team design project based around an autonomous, programmable, robotic vehicle. Students explore different sensors and software strategies for vehicle control and navigation. Here's some highlights of my work during my time as a TA:</p>
-                    <br><br>
-                    <p> • Assisting students develop autonomous algorithms for vehicle control</p>
-                    <br><br>
-                    <p>• Rectifying incorrect board wiring</p>
-                    <br><br>
-                    <p>• Debugging student's Arduino code</p>
-                    <br><br>
-                    <p>• Evaluating and assessing student performance in laboratory exercises</p>
-                </div>
-                <h1>Other Work Experience</h1>
-                <div class="experience-panel">
-                    <h2>Academic Tutor</h2>
-                    <a href="https://engineering.queensu.ca/ece/undergraduate/courses/elec-299.html" target="_blank">Queen's University</a><p> • Contract Part-Time • January 2023 - April 2023 <br> Kingston, Ontario</p>
-                    <br><br>
-                    <p>Undergraduate teaching assistant for the course ELEC299: Mechatronics Project. A team design project based around an autonomous, programmable, robotic vehicle. Students explore different sensors and software strategies for vehicle control and navigation. Here's some highlights of my work during my time as a TA:</p>
-                    <br><br>
-                    <p> • Assisting students develop autonomous algorithms for vehicle control</p>
-                    <br><br>
-                    <p>• Rectifying incorrect board wiring</p>
-                    <br><br>
-                    <p>• Debugging student's Arduino code</p>
-                    <br><br>
-                    <p>• Evaluating and assessing student performance in laboratory exercises</p>
-                </div>
-            </section> <!-- Close the work experience section-->
-
-        </div>
-
-
-
-    </div>
-  
-</body>
+                </section>
+			</div>
+		</div>
+	</body>
 </html>
