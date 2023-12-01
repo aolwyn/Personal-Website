@@ -20,7 +20,7 @@ a {
     display: flex;
     max-width: 1600px;
     border: 4px solid blue;
-    margin-left: 20px;
+    margin-left: 100px;
 }
 
 .left-column {
@@ -76,6 +76,12 @@ a {
     color: #2E456D;
 }
 
+/* .interior-linking a.active {
+    color: black; 
+    font-weight: bold; 
+} */
+
+
 .right-column h1 {
     padding-bottom: 2px;
     margin: 2px;
@@ -89,7 +95,8 @@ a {
     margin: 8px;
 }
 
-.experience-panel-info {
+.experience-panel-info,
+.project-panel-info {
     display: inline;
 }
 .experience-panel-info a {
@@ -99,3 +106,15 @@ a {
 .experience-panel-info p {
     color: whitesmoke;
 }
+
+.project-panel-info a {
+    color: cornflowerblue;
+}
+
+.project-panel-info p {
+    color: whitesmoke;
+}
+
+/* .project-panel img {
+
+} */

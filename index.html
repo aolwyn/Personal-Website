@@ -5,6 +5,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" href="styles.css">
 		<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+		<script src="script.js"></script>
 		<title>Adam's Personal Website</title>
 	</head>
 	<body>
@@ -27,9 +28,10 @@
 				</nav>
 				<p>I'm a computer engineer based in Toronto, Ontario. I am passionate about delivering data-driven solutions to clients and learning new technologies. In my spare time, you can find me rock climbing, biking, online, or working on my next personal project.</p>
 				<div class="interior-linking">
+					<script src="script.js"></script>
 					<a href="#Education">01 EDUCATION</a>
 					<a href="#Experience">02 EXPERIENCE</a>
-					<a href="#">03 PROJECTS</a>
+					<a href="#Projects">03 PROJECTS</a>
 					<a href="#">04 MISC</a>
 				</div>
 			</div>
@@ -148,13 +150,45 @@
 				</section>
 				<!-- Close the work experience section-->
                 <section class="Projects" id="Projects">
-					<div class="project-panel">
+					<h1>Projects</h1>
+						<div class="project-panel">
+							<h2>Friendzr</h2>
+							<div class="project-panel-info">
+								<a href="https://devpost.com/software/friendzr" target="_blank">Devpost</a>
+								<a href="https://github.com/aolwyn/Friendzr" target="_blank">GitHub</a>
+							</div>
+								<p>
+									<strong><em>Full-stack web application</em></strong> developed during the COVID-19 pandemic at QHacks 2022. Friendzr aims to help students network and meet new individuals remotely during the pandemic using a familiar format (Tinder).
+									Users can record a video introduction as opposed to use images to introduce themselves, and upon matching, engage in real-time messaging. MLH Best Use of CockroachDB. 
+								</p>
+						</div>
+						<br>
+						<div class="project-panel">
+							<h2>Green Travel</h2>
+							<div class="project-panel-info">
+								<a href="https://devpost.com/software/green-travel" target="_blank">Devpost</a>
+								<a href="https://github.com/aolwyn/Green-Travel" target="_blank">GitHub</a>
+							</div>
+								<p>
+									<strong><em>Full-stack web application</em></strong> developed at QHacks 2023. Green Travel aims to help identify where users can cut down their personal transportation carbon emissions. Users can enter routes and, using Google Maps APIs, track distances and see differences in time based on method of travel. Using an ML algorithm, users are reccomended alternative methods of travel based on age, physical abilities, time constraints, etc. to cut down on their carbon emission.
+								</p>
+						</div>
+						<div class="project-panel">
+							<h2>Trade the Event</h2>
+							<div class="project-panel-info">
+								<a href="https://github.com/aolwyn/CMPE351_Group11" target="_blank">GitHub</a>
+							</div>
+								<p>
+									Developed in a team of 4, using relational event-driven stock trend forecasting (REST) and ML/AI to analyze stock price changes. Analysis of media sites' influence on the movement of stock prices, including sentiment analysis and key-words used in article titles. Used ticker information to accurately predict stock changes over a 3 day period using machine learning algorithms. Also includes 'false' and 'fake' news detection.
+								</p>
+						</div>
+						<!-- continue here with healthcare website, guessmaster, C++ game.-->
 
-					</div>
 
                 </section>
 				<section class="Gaming" id="Gaming">
 					<div class="gaming-panel">
+
 						
 					</div>
 				</section>
