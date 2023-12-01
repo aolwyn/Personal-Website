@@ -1,7 +1,7 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
-    background-color: gray;
+    background-color: gray;/*gray*/
     color: aliceblue;
     margin: 0;
 }
@@ -28,7 +28,7 @@ a {
     padding: 20px;
     position: sticky;
     top: 0;
-    background-color: gray;
+    background-color: black;
     z-index: 1;
     box-sizing: border-box; /* Include padding and border in the width */
     height: 100vh; /* Make the left column the full height of the viewport */
@@ -38,7 +38,7 @@ a {
 .right-column {
     flex: 0 0 50%; /* Set a fixed width for the right column */
     padding: 20px;
-    background-color: gray;
+    background-color: black;
     box-sizing: border-box;
     overflow-y: auto; /* Enable scrolling if content exceeds viewport height */
 }
@@ -83,8 +83,9 @@ a {
 }
 
 .education-panel,
-.experience-panel {
-    background-color: rgba(0, 0, 0, 0.3);
+.experience-panel,
+.project-panel {
+    background-color: #0e1111;/* rgba(0, 0, 0, 0.3)*/
     margin: 8px;
 }
 
